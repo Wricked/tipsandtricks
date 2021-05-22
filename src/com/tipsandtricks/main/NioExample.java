@@ -17,7 +17,7 @@ public class NioExample {
         FileOutputStream fileOutputStream = new FileOutputStream("F:\\Desenvolvimentos Pessoais\\Projects\\tipsandtricks\\dest.txt");
         FileChannel writeChannel = fileOutputStream.getChannel();
         ByteBuffer writeBuffer = ByteBuffer.allocate(1024);
-        String message = "This is a test string 2/";
+        String message = "This is a test string 2/ ";
         writeBuffer.put(message.getBytes());
         writeBuffer.flip();
         writeChannel.write(writeBuffer);
