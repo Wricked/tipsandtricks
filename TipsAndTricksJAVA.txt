@@ -1,0 +1,18 @@
+Enum is a constant that doesn't change, like Date;
+Annotation is a metadata that provides data which is not part of a program. It's a tool for the compiler;
+Serialization is the process of transforming the class into bytes so it can reverted back somewhere;
+Process is a execution environment with a set of basic run time resources and memory space, which can be a set of programs or applications;
+Threads is a lightweight process or a mini version of threads, a process can have multiple threads, each thread is a task;
+Threads in java can be either simple (Extends from Thread) or custom class based Thread (Implements Runnable);
+Autoboxing and Unboxing is the automatic conversion of primitive types into Class Types.
+Output stream = writes;
+Input stream = reads;
+Byte stream = anything;
+Character stream = just texts;
+Type is static and cannot be changed in Objects;
+Generics are parameters to re-use any Object, with or without cast;
+Java.lang package does not need to be imported, contains all the types, class and variable types;
+Java.util package NEEDS to be imported, contains all the collection types;
+URL = Universal Resource Locator;
+URI = Universal Resource Identifier;
+
